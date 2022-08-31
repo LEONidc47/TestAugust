@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.zada4ka {
+    display: flex;
+    align-items: center;
+}
+
+.tehzad,
+.realiz {
+    width : 50%;
+    height: 100%;
+}
+
+.tehzad>fieldset,
+.realiz>fieldset {
+    border-radius: 10px;
+}
+
+.realiz{
+    display: flex;
+    justify-content: center;
+}
+.realiz>fieldset>div{
+    margin: 10px;
+}
+.realiz>fieldset>div>input{
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+#res01, #res02{
+    background-color: lightgreen;
+    font-weight: bold;
+}
